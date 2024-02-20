@@ -1,0 +1,437 @@
+[
+  {
+    "key": "deviceRootcheckOne",
+    "value": "Si lapplication SuperSU est déjà installée ou si vous pouvez linstaller, faites-le"
+  },
+  {
+    "key": "deviceRootcheckTwo",
+    "value": "Dans longlet Paramètres de SuperSU, faites défiler vers le bas et sélectionnez Dérogation complète."
+  },
+  {
+    "key": "deviceRootcheckThree",
+    "value": "Si vous ne souhaitez pas utiliser SuperSU, vous devrez supprimer manuellement les fichiers et les applications liés à la racine à laide dun gestionnaire de fichiers. Pour plus dinstructions - https://www.androidauthority.com/how-to-unroot-android-phone-tablet-652905/"
+  },
+  {
+    "key": "deviceRootcheck1",
+    "description": "L'accès d'un utilisateur administratif peut entraîner de nombreux types de violations de données et de sécurité.",
+    "display_name": "Compromission potentielle de l'appareil - Test d'accès à la racine11"
+  },
+  {
+    "key": "deviceRootcheck2",
+    "description": "L'accès d'un utilisateur administratif peut entraîner de nombreux types de violations de données et de sécurité.",
+    "display_name": "Compromission potentielle de l'appareil - Test d'accès à la racine12"
+  },
+  {
+    "key": "deviceRootcheck3",
+    "description": "L'accès d'un utilisateur administratif peut entraîner de nombreux types de violations de données et de sécurité.",
+    "display_name": "Compromission potentielle de l'appareil - Test d'accès à la racine13"
+  },
+  {
+    "key": "antiVirusAppCheck",
+    "description": "Vous n'avez pas de protection contre les virus et les logiciels malveillants",
+    "display_name": "Test antivirus"
+  },
+  {
+    "key": "antiVirusAppCheckOne",
+    "value": "Allez sur Google Play Store. (Cliquez sur Aller à... ci-dessous) "
+  },
+  {
+    "key": "antiVirusAppCheckTwo",
+    "value": "Recherchez des applications antivirus (AVG AntiVirus Free, McAfee, Trend Micro, Symantec et dautres sociétés de sécurité réputées proposent des versions gratuites de leurs applications) "
+  },
+  {
+    "key": "antiVirusAppCheckThree",
+    "value": "Sélectionnez lapplication la mieux notée (4.0 ou plus) par les utilisateurs et dont les caractéristiques semblent correspondre à vos besoins, puis installez-la"
+  },
+  {
+    "key": "defaultBrowserSafeCheckOne",
+    "value": "Allez dans Paramètres-Applications par défaut. (Cliquez surci-dessous)"
+  },
+  {
+    "key": "defaultBrowserSafeCheckTwo",
+    "value": "Sélectionnez les applications spécifiques du navigateur (par exemple Chrome)."
+  },
+  {
+    "key": "defaultBrowserSafeCheckThree",
+    "value": "Cliquez sur loption Définir par défaut "
+  },
+  {
+    "key": "weakFireWallAppOne",
+    "value": " Allez sur Google Play Store. (Cliquez sur Aller à... ci-dessous)"
+  },
+  {
+    "key": "weakFireWallAppTwo",
+    "value": "Recherchez les applications de pare-feu (NoRoot Firewall, NetGuard - no-root firewall est lune des applications gratuites les plus utilisées)."
+  },
+  {
+    "key": "weakFireWallAppThree",
+    "value": "Sélectionnez lapplication la mieux notée (4.0 ou plus) par les utilisateurs et dont les fonctionnalités semblent correspondre à vos besoins, puis installez-la."
+  },
+  {
+    "key": "lockPasswordEnableOne",
+    "value": "Allez dans Paramètres -,Biométrie et sécurité(OU Sécurité et localisation OU simplement) - , Verrouillage de lécran. (Cliquez sur  ci-dessous)"
+  },
+  {
+    "key": "lockPasswordEnableTwo",
+    "value": "Activez le verrouillage de lécran"
+  },
+  {
+    "key": "lockPasswordEnableThree",
+    "value": "Sil existe une option de mot de passe, sélectionnez-la au lieu du verrouillage de lécran pour une meilleure sécurité. Le mot de passe doit comporter au moins 10 caractères, avec une combinaison de majuscules, de minuscules et de chiffres."
+  },
+  {
+    "key": "antiPhishingAppOne",
+    "value": "Ouvrez lapplication Google Play Store. (Cliquez sur Aller à... ci-dessous)"
+  },
+  {
+    "key": "antiPhishingAppTwo",
+    "value": "Recherchez les applications anti-hameçonnage (AVG AntiVirus Free - Android Virus Cleaner 2020, Mobile Security : Antivirus, Wi-Fi VPN  Anti-Theft, JioSecurity : Analyse des logiciels malveillants, antivirus, verrouillage des applications)"
+  },
+  {
+    "key": "vPNAppAvailableOne",
+    "value": "Ouvrez lapplication Google Play Store. (Cliquez sur Aller à...ci-dessous)"
+  },
+  {
+    "key": "vPNAppAvailableTwo",
+    "value": "Rechercher lapplication VPN"
+  },
+  {
+    "key": "vPNAppAvailableThree",
+    "value": "Sélectionnez une application gratuite ou payante avec une note dau moins 4.0 et dont les caractéristiques répondent à vos besoins."
+  },
+  {
+    "key": "camerLoctionPermissionOne",
+    "value": "Allez dans Paramètres -,Apps(ou Confidentialité puis Gestionnaire de permissions) - , Sélectionner lapplication Caméra . (Cliquez sur Aller à... ci-dessous)"
+  },
+  {
+    "key": "camerLoctionPermissionTwo",
+    "value": "Sélectionnez Emplacement, puis Refuser "
+  },
+  {
+    "key": "appLocationSharingPermissionOne",
+    "value": "Allez dans Paramètres -,Apps(ou dans Confidentialité puis dans Gestionnaire de permissions)(Cliquez sur Aller à...ci - dessous)."
+  },
+  {
+    "key": "appLocationSharingPermissionTwo",
+    "value": "Sélectionnez Social Media Apps"
+  },
+  {
+    "key": "appLocationSharingPermissionThree",
+    "value": "Sélectionnez Emplacement, puis Refuser (ou Seulement pendant lutilisation de lapplication)."
+  },
+  {
+    "key": "antiVirusAppAvlOne",
+    "value": "Accédez à votre application antivirus"
+  },
+  {
+    "key": "antiVirusAppAvlTwo",
+    "value": "Activer lanalyse par téléchargement Web pour les fichiers de virus"
+  },
+  {
+    "key": "antiVirusAppAvlThree",
+    "value": "Cliquez sur Bloquer sur les fenêtres contextuelles qui avertissent des fichiers nuisibles (ou virus)"
+  },
+  {
+    "key": "webProxyOne",
+    "value": "Allez dans Réglages-WiFi.(Cliquez sur Aller à...ci - dessous)"
+  },
+  {
+    "key": "webProxyTwo",
+    "value": "Sélectionnez le réseau sur lequel vous souhaitez activer Poxy, puis sélectionnez Modifier le réseau et cliquez sur Options avancées."
+  },
+  {
+    "key": "webProxyThree",
+    "value": "Sélectionnez Manual ou Auto en fonction des paramètres de proxy disponibles et des paramètres de configuration fournis par votre fournisseur de réseau."
+  },
+  {
+    "key": "usbDebuggingCheckOne",
+    "value": "Rechercher loption de débogage USB"
+  },
+  {
+    "key": "usbDebuggingCheckTwo",
+    "value": "Désactivez-le"
+  },
+
+  {
+    "key": "portAvailableOne",
+    "value": "Connectez-vous à votre routeur Wifi"
+  },
+  {
+    "key": "portAvailableTwo",
+    "value": "Accédez à la page Paramètres du pare-feu"
+  },
+  {
+    "key": "portAvailableThree",
+    "value": "Sil existe un paramètre Bloquer tous les accès entrants , activez-le."
+  },
+  {
+    "key": "isRouterAdminAccessOne",
+    "value": "Connectez-vous à votre routeur WiFi"
+  },
+  {
+    "key": "isRouterAdminAccessTwo",
+    "value": "Accédez à la page du compte administrateur"
+  },
+  {
+    "key": "isRouterAdminAccessThree",
+    "value": "Modifiez le mot de passe administratif du routeur WiFi pour quil comporte au moins 10 caractères et une combinaison de lettres majuscules/minuscules et de chiffres."
+  },
+  {
+    "key": "wifiPasswordStrengthOne",
+    "value": "Pour activer le VPN lors de lutilisation dun réseau WiFi tiers, accédez au gestionnaire VPN à partir du menu de lapplication WhiteHaX CyberSafe."
+  },
+  {
+    "key": "wifiPasswordStrengthTwo",
+    "value": "Faites glisser linterrupteur VPN sur ON"
+  },
+  {
+    "key": "vpnNatOne",
+    "value": "Allez dans lapplication Paramètres-, Paramètres réseau - VPN "
+  },
+  {
+    "key": "vpnNatTwo",
+    "value": " Activez le VPN IPSec pour améliorer la confidentialité et la sécurité de vos communications Internet."
+  },
+  {
+    "key": "isHiddenSSIDOne",
+    "value": "Connectez-vous à votre routeur Wifi"
+  },
+  {
+    "key": "isHiddenSSIDTwo",
+    "value": "Accédez à la page Paramètres WiFi"
+  },
+  {
+    "key": "isHiddenSSIDThree",
+    "value": "Modifiez les paramètres du routeur WiFi pour masquer le SSID. Cela permettra de réduire les intrusions WiFI potentielles."
+  },
+  {
+    "key": "isWifiEncryptedOne",
+    "value": "Connectez-vous à votre routeur Wifi"
+  },
+  {
+    "key": "isWifiEncryptedTwo",
+    "value": "Accédez à la page Paramètres WiFi "
+  },
+  {
+    "key": "isWifiEncryptedThree",
+    "value": "Dans les paramètres WiFi, choisissez WPA2 ou WPA2-PSK pour un meilleur cryptage des données WiFi entre vos appareils et le routeur."
+  },
+  {
+    "key": "isIpDefaultRouterOne",
+    "value": "Connectez-vous à votre routeur WiFi"
+  },
+  {
+    "key": "isIpDefaultRouterTwo",
+    "value": "Accédez à la page des paramètres du réseau WiFi"
+  },
+  {
+    "key": "isIpDefaultRouterThree",
+    "value": "Modifiez ladresse IP du routeur WiFi en changeant le 3e, (2 ou) 3 chiffres. Cela permettra de réduire les failles de sécurité potentielles du réseau WiFi."
+  },
+  {
+    "key": "dnsPosOne",
+    "value": "Connectez-vous à votre routeur WiFi"
+  },
+  {
+    "key": "dnsPosTwo",
+    "value": "Accédez à la page Paramètres du routeur WiFi"
+  },
+  {
+    "key": "dnsPosThree",
+    "value": "Réglez les paramètres du serveur DNS sur Autosélection. Si 2 IP de serveurs DNS sont visibles, vérifiez quil sagit bien des serveurs DNS de votre fournisseur daccès (vous devrez peut-être appeler votre fournisseur daccès pour vérifier)."
+  },
+  {
+    "key": "eavesDropCheckOne",
+    "value": "Connectez-vous à votre routeur WiFi "
+  },
+  {
+    "key": "eavesDropCheckTwo",
+    "value": "Accédez à la page des paramètres du réseau WiFi"
+  },
+  {
+    "key": "eavesDropCheckThree",
+    "value": "Modifiez ladresse IP du routeur WiFi en changeant le 3e, (2 ou) 3 chiffres."
+  },
+  {
+    "key": "eavesDropCheckFour",
+    "value": "Ensuite, allez à la page du compte de ladministrateur"
+  },
+  {
+    "key": "eavesDropCheckFive",
+    "value": "Modifiez le mot de passe administratif du routeur WiFi pour quil comporte au moins 10 caractères avec une combinaison de lettres "
+  },
+  {
+    "key": "eavesDropCheckSix",
+    "value": "Ensuite, allez dans Settings App-,Network Settings - , VPN "
+  },
+  {
+    "key": "eavesDropCheckSeven",
+    "value": "Activez le VPN IPSec pour améliorer la confidentialité et la sécurité de"
+  },
+  {
+    "key": "isNFCEnable",
+    "value": "Désactiver le NFC",
+    "description": "Vérifie si le module NFC est activé sur votre téléphone.",
+    "display_name": "Test NFC"
+  },
+  {
+    "key": "isBluetoothConnected",
+    "value": "Désactiver le Bluetooth",
+    "description": "Vérifie si le module Bluetooth est activé sur votre téléphone.",
+    "display_name": "Test Bluetooth"
+  },
+  {
+    "key": "storageEncryptionDeviceCheck",
+    "description": "L'activation du cryptage du stockage permet de se protéger contre le vol de données.",
+    "display_name": "Vérification du cryptage du stockage"
+  },
+  {
+    "key": "defaultBrowserSafeCheck",
+    "description": "Utiliser un navigateur qui offre une protection solide de la vie privée et des données.",
+    "display_name": "Test du navigateur par défaut"
+  },
+  {
+    "key": "weakFireWallApp",
+    "description": "Le pare-feu protège la communication de votre appareil",
+    "display_name": "Test de pare-feu"
+  },
+  {
+    "key": "lockPasswordEnable",
+    "description": "Le verrouillage de l'appareil lorsqu'il n'est pas utilisé permet d'éviter toute utilisation abusive.",
+    "display_name": "Test de l'écran de verrouillage"
+  },
+  {
+    "key": "antiPhishingApp",
+    "description": "Vous ne bénéficiez pas de la protection des courriels contre l'hameçonnage",
+    "display_name": "Test de sécurité du courrier électronique"
+  },
+  {
+    "key": "vPNAppAvailable",
+    "description": "Il vous manque le VPN pour améliorer la confidentialité et la sécurité lors de la navigation L'accès des utilisateurs administratifs peut entraîner de nombreux types de violations des données et de la sécurité",
+    "display_name": "Blocage de l'espionnage des données par les FAI"
+  },
+  {
+    "key": "camerLoctionPermission",
+    "description": "Désactiver le partage de la localisation lors de l'utilisation de l'appareil photo pour protéger la vie privée",
+    "display_name": "Test de localisation - Caméra"
+  },
+  {
+    "key": "webProxy",
+    "description": "Un proxy Web permet d'améliorer la confidentialité et de filtrer les données Web indésirables avant qu'elles ne soient téléchargées sur votre appareil.",
+    "display_name": "Test de procuration"
+  },
+  {
+    "key": "usbDebuggingCheck",
+    "description": "Le débogage USB vous permet d'apporter des modifications à votre appareil à partir d'un ordinateur. Il est préférable de laisser ce paramètre désactivé.",
+    "display_name": "Accès par USB Test"
+  },
+  {
+    "key": "angryBirdsAppTest1",
+    "description": "Une plateforme publicitaire cachée dans le code de certains de ces jeux permet à l'entreprise de cibler des publicités sur ses utilisateurs. Cela signifie que des données sensibles telles que les numéros de téléphone, les journaux d'appels, la localisation, les informations politiques et même les informations sur l'orientation sexuelle des utilisateurs pourraient être rendues publiques et accessibles aux agences gouvernementales et aux annonceurs.",
+    "display_name": "Test de confidentialité - Angry Birds 2",
+    "value": "Allez dans Paramètres-, WiFi.(Cliquez sur Aller à...ci - dessous)"
+  },
+  {
+    "key": "angryBirdsAppTest2",
+    "description": "Une plateforme publicitaire cachée dans le code de certains de ces jeux permet à l'entreprise de cibler des publicités sur ses utilisateurs. Cela signifie que des données sensibles telles que les numéros de téléphone, les journaux d'appels, la localisation, les informations politiques et même les informations sur l'orientation sexuelle des utilisateurs pourraient être rendues publiques et accessibles aux agences gouvernementales et aux annonceurs.",
+    "display_name": "Test de confidentialité - Angry Birds Friends"
+  },
+  {
+    "key": "angryBirdsAppTest3",
+    "description": "Une plateforme publicitaire cachée dans le code de certains de ces jeux permet à l'entreprise de cibler des publicités sur ses utilisateurs. Cela signifie que des données sensibles telles que les numéros de téléphone, les journaux d'appels, la localisation, les informations politiques et même les informations sur l'orientation sexuelle des utilisateurs pourraient être rendues publiques et accessibles aux agences gouvernementales et aux annonceurs.",
+    "display_name": "Test de confidentialité - Angry Birds Evolution"
+  },
+  {
+    "key": "gasBuddyAppTest",
+    "description": "En collectant en permanence les données relatives à la localisation des stations-service, cette application peut trier les lieux où vous travaillez, habitez et sortez, mais elle collecte aussi explicitement des données sur vos allées et venues en arrière-plan.",
+    "display_name": "Test de confidentialité - GasBuddy"
+  },
+  {
+    "key": "bibleAppTest",
+    "description": "YouVersion peut se connecter et se déconnecter du WiFi quand elle le souhaite, modifier le contenu stocké sur votre téléphone, suivre votre position et lire tous vos contacts. Aucune des informations auxquelles cette application doit avoir accès.",
+    "display_name": "Test de confidentialité - YouVersion Bible"
+  },
+  {
+    "key": "appLocationSharingPermission",
+    "description": "Turn off Location Sharing when using Social Media to protect privacy",
+    "display_name": "Location Test - "
+  },
+  {
+    "key": "appLocationSharingSocialPermission",
+    "description": "Activez les paramètres de confidentialité et de sécurité lorsque vous utilisez des applications de médias sociaux.",
+    "display_name": "Test de confidentialité - "
+  },
+  {
+    "key": "portAvailable",
+    "description": "Do not allow inbound connections from Internet",
+    "display_name": "Test du port FW"
+  },
+  {
+    "key": "isRouterAdminAccess",
+    "description": "L'utilisation du mot de passe par défaut du fournisseur pour le routeur augmente les risques d'intrusion dans le réseau WiFi",
+    "display_name": "Test d'accès au routeur WiFi"
+  },
+  {
+    "key": "wifiPasswordStrength",
+    "description": "Les mots de passe WiFi simples sont faciles à déchiffrer et peuvent conduire à un accès non autorisé.",
+    "display_name": "Test de mot de passe WiFi"
+  },
+  {
+    "key": "vpnNat",
+    "description": "Vous utilisez le VPN sur le WiFi pour améliorer la sécurité et la confidentialité des données",
+    "display_name": "Test VPN NAT"
+  },
+  {
+    "key": "isHiddenSSID",
+    "description": "Masquer le SSID WiFi pour protéger votre WiFi contre les intrusions",
+    "display_name": "Test SSID WiFi"
+  },
+  {
+    "key": "isWifiEncrypted",
+    "description": "Utiliser un cryptage WiFI fort pour une sécurité renforcée",
+    "display_name": "Test de cryptage WiFi"
+  },
+  {
+    "key": "isIpDefaultRouter",
+    "description": "L'utilisation de l'adresse IP par défaut du fournisseur augmente les risques d'intrusion dans les réseaux WiFi",
+    "display_name": "Test du routeur WiFi"
+  },
+
+  {
+    "key": "dnsPos",
+    "description": "Votre WiFi accède à un serveur DNS potentiellement compromis",
+    "display_name": "Test de risque d'empoisonnement du DNS par le WiFi"
+  },
+  {
+    "key": "eavesDropCheck",
+    "description": "Combinaison de tests VPN/NAT et de contrôles de sécurité du routeur",
+    "display_name": "Test d'écoute WiFi"
+  },
+  {
+    "key": "googlePlayProtectionTest",
+    "description": "Ce test vérifie si Google Play Protect est activé ou non sur le Play Store.",
+    "display_name": "Test de protection Google Play",
+    "remediationSteps": [
+      "Ouvrez l'application Google Play Store Google Play.",
+      "En haut à droite, appuyez sur l'icône de profil.",
+      "Appuyez sur Play Protect, puis sur Paramètres.",
+      "Activer l'analyse des applications avec Play Protect"
+    ]
+  },
+  {
+    "key": "emailPhishing",
+    "description": "Les escroqueries par hameçonnage par courrier électronique peuvent provoquer un vol de données ou d'identité.",
+    "display_name": "Test de phishing par courrier électronique1",
+    "remediationSteps": [
+      "Accédez à la formation sur les menaces pour obtenir des conseils sur la manière d'éviter le phishing."
+    ]
+  },
+  {
+    "key": "emailAttachment",
+    "description": "Les escroqueries par hameçonnage par courrier électronique peuvent provoquer un vol de données ou d'identité. Accédez à la formation sur les menaces pour obtenir des conseils sur la manière d'éviter le phishing.",
+    "display_name": "Test de phishing par e-mail2",
+    "remediationSteps": [
+      "Accédez à la formation sur les menaces pour obtenir des conseils sur la manière d'éviter le phishing."
+    ]
+  }
+]

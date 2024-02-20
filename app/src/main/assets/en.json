@@ -1,0 +1,435 @@
+[
+  {
+    "key": "deviceRootcheckOne",
+    "value": "If you the have SuperSU App installed or can install it, do so"
+  },
+  {
+    "key": "deviceRootcheckTwo",
+    "value": "From Settings Tab of SuperSU,  scroll down and select Full Unroot"
+  },
+  {
+    "key": "deviceRootcheckThree",
+    "value": "If you do not want to use SuperSU, you will have to manually delete files and application related to root using a File Manager application. For further instructions - https://www.androidauthority.com/how-to-unroot-android-phone-tablet-652905/"
+  },
+  {
+    "key": "deviceRootcheck1",
+    "description": "Admin User access can cause many types of data and security breach",
+    "display_name": "Potential Device Compromise - Root Access Test1"
+  },
+  {
+    "key": "deviceRootcheck2",
+    "description": "Admin User access can cause many types of data and security breach",
+    "display_name": "Potential Device Compromise - Root Access Test2"
+  },
+  {
+    "key": "deviceRootcheck3",
+    "description": "Admin User access can cause many types of data and security breach",
+    "display_name": "Potential Device Compromise - Root Access Test3"
+  },
+  {
+    "key": "antiVirusAppCheck",
+    "description": "You are missing  protection against Viruses and Malware ",
+    "display_name": "Anti Virus Test"
+  },
+  {
+    "key": "antiVirusAppCheckOne",
+    "value": "Go to Google Play Store. (Click “Go To...” below) "
+  },
+  {
+    "key": "antiVirusAppCheckTwo",
+    "value": "Search for anti virus applications (AVG AntiVirus Free, McAfee, Trend Micro, Symantec and other reputable Security companies offer free versions of their apps)"
+  },
+  {
+    "key": "antiVirusAppCheckThree",
+    "value": "Select the App that has high (4.0 or more) user ratings and offers features that seem appropriate for your need and Install it. "
+  },
+  {
+    "key": "defaultBrowserSafeCheckOne",
+    "value": "Go to Settings->Apps->Default Apps. (Click “Go To...” below)"
+  },
+  {
+    "key": "defaultBrowserSafeCheckTwo",
+    "value": "Select specific Browser Apps (e.g. Chrome) "
+  },
+  {
+    "key": "defaultBrowserSafeCheckThree",
+    "value": "Click Set as Default Option"
+  },
+  {
+    "key": "weakFireWallAppOne",
+    "value": "Go to Google Play Store. (Click “Go To...” below)"
+  },
+  {
+    "key": "weakFireWallAppTwo",
+    "value": "Search for Firewall Applications(NoRoot Firewall, NetGuard - no-root firewall is one of the highly used free apps)"
+  },
+  {
+    "key": "weakFireWallAppThree",
+    "value": "Select the App that has high (4.0 or more) user ratings and offers features that seem appropriate for your need and Install it."
+  },
+  {
+    "key": "lockPasswordEnableOne",
+    "value": "Go to Settings -> Biometrics  Security (OR Security  location OR simply)-> Screen Lock. (Click “Go To...” below)"
+  },
+  {
+    "key": "lockPasswordEnableTwo",
+    "value": "Turn Screen Lock ON"
+  },
+  {
+    "key": "lockPasswordEnableThree",
+    "value": "If there is a password option, select that instead of Screen Lock for better security. Make password at least 10 characters long with a combination of upper/lower case and numbers"
+  },
+  {
+    "key": "antiPhishingAppOne",
+    "value": "Open Google Play Store App. (Click “Go To...” below)"
+  },
+  {
+    "key": "antiPhishingAppTwo",
+    "value": "Search for Anti-Phishing Applications (AVG AntiVirus Free – Android Virus Cleaner 2020, Mobile Security: Antivirus, Wi-Fi VPN  Anti-Theft, JioSecurity: Malware Scan, Antivirus, App Lock)"
+  },
+  {
+    "key": "vPNAppAvailableOne",
+    "value": "Open Google Play Store App. (Click “Go To...” below)"
+  },
+  {
+    "key": "vPNAppAvailableTwo",
+    "value": "Search for VPN Application"
+  },
+  {
+    "key": "vPNAppAvailableThree",
+    "value": "Select a free or paid app with at least a 4.0 rating and which has the features suitable to your need"
+  },
+  {
+    "key": "camerLoctionPermissionOne",
+    "value": "Go to setting -> Apps (or Privacy and then Permission Manager) -> Select Camera App . (Click “Go To...” below)"
+  },
+  {
+    "key": "camerLoctionPermissionTwo",
+    "value": "Select Location, then Select Deny "
+  },
+  {
+    "key": "appLocationSharingPermissionOne",
+    "value": "Go to setting -> Apps (or Privacy and then Permission Manager).(Click “Go To...” below)"
+  },
+  {
+    "key": "appLocationSharingPermissionTwo",
+    "value": "Select Social Media Apps"
+  },
+  {
+    "key": "appLocationSharingPermissionThree",
+    "value": "Select Location, then Select Deny (or Only while using App)"
+  },
+  {
+    "key": "antiVirusAppAvlOne",
+    "value": "Go to your antivirus app"
+  },
+  {
+    "key": "antiVirusAppAvlTwo",
+    "value": "Enable web-download scanning for Virus files"
+  },
+  {
+    "key": "antiVirusAppAvlThree",
+    "value": "Click “Block” on pop-ups that warm about harmful (or Virus) files"
+  },
+  {
+    "key": "webProxyOne",
+    "value": "Go to Settings->WiFi. (Click “Go To...” below)"
+  },
+  {
+    "key": "webProxyTwo",
+    "value": "Select network which you want to turn Poxy ON, then select Modify Network and click on Advance Options"
+  },
+  {
+    "key": "webProxyThree",
+    "value": "Select Manual or Auto based on available proxy setting and configure parameters provided by your network provider"
+  },
+  {
+    "key": "usbDebuggingCheckOne",
+    "value": "Search for USB debugging option"
+  },
+  {
+    "key": "usbDebuggingCheckTwo",
+    "value": "Disable it"
+  },
+  {
+    "key": "portAvailableOne",
+    "value": "Login to your Wifi router"
+  },
+  {
+    "key": "portAvailableTwo",
+    "value": "Go to the Firewall Settings page"
+  },
+  {
+    "key": "portAvailableThree",
+    "value": "If there is a setting for Block All Inbound Access turn it ON"
+  },
+  {
+    "key": "isRouterAdminAccessOne",
+    "value": " Login to your WiFi router"
+  },
+  {
+    "key": "isRouterAdminAccessTwo",
+    "value": "Go to the Administrator account page"
+  },
+  {
+    "key": "isRouterAdminAccessThree",
+    "value": "Change the WiFi routers administrative password to make it at least 10 characters long with a combination of upper/lower case letters and numbers"
+  },
+  {
+    "key": "wifiPasswordStrengthOne",
+    "value": "To turn VPN on while using 3rd party WiFi, go to VPN manager from WhiteHaX CyberSafe app menu"
+  },
+  {
+    "key": "wifiPasswordStrengthTwo",
+    "value": "Slide VPN switch to ON"
+  },
+  {
+    "key": "vpnNatOne",
+    "value": "Go to Settings App->Network Settings ->VPN"
+  },
+  {
+    "key": "vpnNatTwo",
+    "value": "Turn IPSec VPN to increase privacy and security of your Internet communication"
+  },
+  {
+    "key": "isHiddenSSIDOne",
+    "value": "Login to your Wifi router"
+  },
+  {
+    "key": "isHiddenSSIDTwo",
+    "value": "Go to the WiFi Settings page"
+  },
+  {
+    "key": "isHiddenSSIDThree",
+    "value": "Change the WiFi router settings to hide SSID. This will help reduce potential WiFI intrusions"
+  },
+  {
+    "key": "isWifiEncryptedOne",
+    "value": "Login to your Wifi router"
+  },
+  {
+    "key": "isWifiEncryptedTwo",
+    "value": "Go to the WiFi Settings page "
+  },
+  {
+    "key": "isWifiEncryptedThree",
+    "value": "In the WiFi Settings, choose either WPA2 or WPA2-PSK for stronger WiFi data Encryption between your devices and the router"
+  },
+  {
+    "key": "isIpDefaultRouterOne",
+    "value": "Login to your WiFi router "
+  },
+  {
+    "key": "isIpDefaultRouterTwo",
+    "value": "Go to the WiFi Network Settings Page"
+  },
+  {
+    "key": "isIpDefaultRouterThree",
+    "value": "Change the WiFi router IP Address by changing 3rd, (2 or) 3 digit number. This will reduce potential WiFi security breaches"
+  },
+  {
+    "key": "dnsPosOne",
+    "value": "Login to your WiFi router"
+  },
+  {
+    "key": "dnsPosTwo",
+    "value": "Go to the WiFi Router Settings  page"
+  },
+  {
+    "key": "dnsPosThree",
+    "value": "Set the DNS Server settings to Auto-select. If 2 DNS server IPs are visible, check to ensure they are your ISPs DNS servers (you may have to call your ISP to verify)"
+  },
+  {
+    "key": "eavesDropCheckOne",
+    "value": "Login to your WiFi router"
+  },
+  {
+    "key": "eavesDropCheckTwo",
+    "value": "Go to the WiFi Network Settings Page"
+  },
+  {
+    "key": "eavesDropCheckThree",
+    "value": "Change the WiFi router IP Address by changing 3rd, (2 or) 3 digit number."
+  },
+  {
+    "key": "eavesDropCheckFour",
+    "value": "Next, Go to the Administrator account page"
+  },
+  {
+    "key": "eavesDropCheckFive",
+    "value": "Change the WiFi routers administrative password to make it at least 10 characters long with a combination of upper/lower case letters and numbers"
+  },
+  {
+    "key": "eavesDropCheckSix",
+    "value": "Next, Go to Settings App->Network Settings ->VPN"
+  },
+  {
+    "key": "eavesDropCheckSeven",
+    "value": "Turn IPSec VPN to increase privacy and security of your Internet communication"
+  },
+  {
+    "key": "isNFCEnable",
+    "value": "Turn off the NFC",
+    "description": "Checks whether the NFC module is enabled on your phone.",
+    "display_name": "NFC Test"
+  },
+  {
+    "key": "isBluetoothConnected",
+    "value": "Turn off the Bluetooth",
+    "description": "Checks whether the Bluetooth module is enabled on your phone.",
+    "display_name": "Bluetooth Test"
+  },
+  {
+    "key": "storageEncryptionDeviceCheck",
+    "description": "Enabling storage encryption helps protect against Data theft.",
+    "display_name": "Storage Encryption Check"
+  },
+  {
+    "key": "defaultBrowserSafeCheck",
+    "description": "Utiliser un navigateur qui offre une protection solide de la vie privée et des données.",
+    "display_name": "Test du navigateur par défaut"
+  },
+  {
+    "key": "weakFireWallApp",
+    "description": "Firewall protects your Device communication",
+    "display_name": "Firewall Test"
+  },
+  {
+    "key": "lockPasswordEnable",
+    "description": "Locking the Device when not in use, prevents misuse",
+    "display_name": "Lock Screen Test"
+  },
+  {
+    "key": "antiPhishingApp",
+    "description": "You are missing Email protection against Phishing ",
+    "display_name": "Email Security Test"
+  },
+  {
+    "key": "vPNAppAvailable",
+    "description": "You are missing VPN for enhanced privacy and security while browsing Admin User access can cause many types of data and security breach",
+    "display_name": "Blocking ISP Data Snooping"
+  },
+  {
+    "key": "camerLoctionPermission",
+    "description": "Turn off Location Sharing when using Camera to protect privacy",
+    "display_name": "Location Test - Camera"
+  },
+  {
+    "key": "webProxy",
+    "description": "A Web Proxy can increase privacy and filter bad web data content before it gets downloaded on to your device.",
+    "display_name": "Proxy Test"
+  },
+  {
+    "key": "usbDebuggingCheck",
+    "description": "USB Debugging allows you to make changes to your device from a computer. It is best to leave this setting switched off.",
+    "display_name": "Access thru USB Test"
+  },
+  {
+    "key": "angryBirdsAppTest1",
+    "description": "An ad platform hidden in some of these game's code lets the company target advertisements to its users. That meant sensitive data like phone numbers, call logs, location, political information and even information about users' sexual orientation could be public and available to government agencies and advertisers.",
+    "display_name": "Privacy Test - Angry Birds 2",
+    "value": "Go to Settings->WiFi. (Click “Go To...” below)"
+  },
+  {
+    "key": "angryBirdsAppTest2",
+    "description": "An ad platform hidden in some of these game's code lets the company target advertisements to its users. That meant sensitive data like phone numbers, call logs, location, political information and even information about users' sexual orientation could be public and available to government agencies and advertisers.",
+    "display_name": "Privacy Test - Angry Birds Friends"
+  },
+  {
+    "key": "angryBirdsAppTest3",
+    "description": "An ad platform hidden in some of these game's code lets the company target advertisements to its users. That meant sensitive data like phone numbers, call logs, location, political information and even information about users' sexual orientation could be public and available to government agencies and advertisers.",
+    "display_name": "Privacy Test - Angry Birds Evolution"
+  },
+  {
+    "key": "gasBuddyAppTest",
+    "description": "This app by collecting the gas station location data all the time can triage locations like where you work, live, and go out, is also explicitly collecting data on your whereabouts in the background.",
+    "display_name": "Privacy Test - GasBuddy"
+  },
+  {
+    "key": "bibleAppTest",
+    "description": "YouVersion can connect and disconnect to WiFi whenever it wants, modify the content stored on your phone, track your location, and read all of your contacts. None of the information that this app needs access to.",
+    "display_name": "Privacy Test - YouVersion Bible"
+  },
+  {
+    "key": "appLocationSharingPermission",
+    "description": "Turn off Location Sharing when using Social Media to protect privacy",
+    "display_name": "Location Test - "
+  },
+  {
+    "key": "appLocationSharingSocialPermission",
+    "description": "Turn on Privacy and security settings when using Social Media Apps",
+    "display_name": "Privacy Test - "
+  },
+  {
+    "key": "portAvailable",
+    "description": "Do not allow inbound connections from Internet",
+    "display_name": "FW Port Test"
+  },
+  {
+    "key": "isRouterAdminAccess",
+    "description": "Using vendor default Router passwd increases WiFi break-in risks",
+    "display_name": "WiFi Router Access Test"
+  },
+  {
+    "key": "wifiPasswordStrength",
+    "description": "Simple WiFi passwords are easy to crack and can lead to unauthorized access.",
+    "display_name": "WiFi Password Test"
+  },
+  {
+    "key": "vpnNat",
+    "description": "You VPN over WiFi to increase Data Security and Privacy",
+    "display_name": "VPN NAT Test"
+  },
+  {
+    "key": "isHiddenSSID",
+    "description": "Hide WiFi SSID to protect your WiFi against intrusions",
+    "display_name": "WiFi SSID Test"
+  },
+  {
+    "key": "isWifiEncrypted",
+    "description": "Use strong WiFI Encryption for stronger security",
+    "display_name": "WiFi Encryption Test"
+  },
+  {
+    "key": "isIpDefaultRouter",
+    "description": "Using vendor default IP increases WiFi break-in risks",
+    "display_name": "WiFi Router Test"
+  },
+  {
+    "key": "dnsPos",
+    "description": "Your WiFi accesses potentially compromised DNS server",
+    "display_name": "WiFi DNS Poisoning Risk Test"
+  },
+  {
+    "key": "eavesDropCheck",
+    "description": "Combination of test of VPN/NAT and Router Security checks",
+    "display_name": "WiFi Eavesdropping Test"
+  },
+  {
+    "key": "googlePlayProtectionTest",
+    "description": "This test checks whether Google Play Protect is enabled on Play Store or not.",
+    "display_name": "Google Play Protection Test",
+    "remediationSteps": [
+      "Open the Google Play Store app Google Play.",
+      "At the top right, tap the profile icon.",
+      "Tap Play Protect and then Settings Settings.",
+      "Turn Scan apps with Play Protect on"
+    ]
+  },
+  {
+    "key": "emailPhishing",
+    "description": "Email Phishing scams can cause data or identify theft.",
+    "display_name": "Email Phishing Test1",
+    "remediationSteps": [
+      "Go to Threat Training for tips on how to avoid phishing"
+    ]
+  },
+  {
+    "key": "emailAttachment",
+    "description": "Email Phishing scams can cause data or identify theft. Go to Threat Training for tips on how to avoid phishing",
+    "display_name": "Email Phishing Test2",
+    "remediationSteps": [
+      "Go to Threat Training for tips on how to avoid phishing."
+    ]
+  }
+]

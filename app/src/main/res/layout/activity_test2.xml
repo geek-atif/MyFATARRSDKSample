@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+<LinearLayout
+    android:visibility="visible"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <Button
+      android:id="@+id/btAccountDeletion"
+      android:text="Login with tanay"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/btGoogleHangout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="Login with Lic1" />
+
+
+  <Button
+      android:id="@+id/btTestLogin"
+      android:text="disable Scoial  "
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/btTestMethod"
+      android:text="Smart Device "
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:id="@+id/btAppleContacting"
+      android:text="Wifi"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+  <Button
+      android:id="@+id/btUpsDelivery"
+      android:text="Device"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+  <EditText
+
+      android:id="@+id/etEmailAddress"
+      android:hint="Enter ip address"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+  <EditText
+      android:visibility="gone"
+      android:id="@+id/etTypeEmail"
+      android:hint="Enter sender email type"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+
+  <TextView
+      android:visibility="gone"
+      android:textColor="#000000"
+      android:id="@+id/tvTestResultppp"
+      android:layout_width="wrap_content"
+      android:layout_height="500dp"/>
+
+
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btDirectDeposit"
+      android:text="Enable Wifi"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btGoogleNewDevice"
+      android:text="Start VPn with permisssion"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btNetflixReset"
+      android:text="start with unblock"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btShippingConfirmation"
+      android:text="shippingConfirmation"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btStarbucks"
+      android:text="starbucks"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+
+  <Button
+      android:visibility="gone"
+      android:id="@+id/btVenmoGiftcard"
+      android:text="VenmoGiftcard"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</ScrollView>

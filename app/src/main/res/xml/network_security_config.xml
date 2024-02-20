@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">crvtest.whitehax.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">2V8YLF+iPVrMY7KMCs7EufatEeIzVKVL1/Cbd1twAs4=</pin>
+         </pin-set>
+    </domain-config>
+</network-security-config>
+

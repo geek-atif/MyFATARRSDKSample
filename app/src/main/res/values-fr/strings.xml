@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General Check" -->
+    <string name ="deviceRootcheckOne">Si lapplication SuperSU est déjà installée ou si vous pouvez linstaller, faites-le</string>
+    <string name ="deviceRootcheckTwo">Dans longlet Paramètres de SuperSU, faites défiler vers le bas et sélectionnez Dérogation complète.</string>
+    <string name ="deviceRootcheckThree">Si vous ne souhaitez pas utiliser SuperSU, vous devrez supprimer manuellement les fichiers et les applications liés à la racine à laide dun gestionnaire de fichiers. Pour plus dinstructions - https://www.androidauthority.com/how-to-unroot-android-phone-tablet-652905/</string>
+    <string name ="antiVirusAppCheckOne">Allez sur Google Play Store. (Cliquez sur "Aller à..." ci-dessous) </string>
+    <string name ="antiVirusAppCheckTwo">Recherchez des applications antivirus (AVG AntiVirus Free, McAfee, Trend Micro, Symantec et dautres sociétés de sécurité réputées proposent des versions gratuites de leurs applications) </string>
+    <string name ="antiVirusAppCheckThree">Sélectionnez lapplication la mieux notée (4.0 ou plus) par les utilisateurs et dont les caractéristiques semblent correspondre à vos besoins, puis installez-la</string>
+    <string name ="defaultBrowserSafeCheckOne">Allez dans Paramètres->Applications->Applications par défaut. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="defaultBrowserSafeCheckTwo">Sélectionnez les applications spécifiques du navigateur (par exemple Chrome).</string>
+    <string name ="defaultBrowserSafeCheckThree">Cliquez sur loption "Définir par défaut".</string>
+    <string name ="weakFireWallAppOne"> Allez sur Google Play Store. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="weakFireWallAppTwo">Recherchez les applications de pare-feu (NoRoot Firewall, NetGuard - no-root firewall est lune des applications gratuites les plus utilisées).</string>
+    <string name ="weakFireWallAppThree">Sélectionnez lapplication la mieux notée (4.0 ou plus) par les utilisateurs et dont les fonctionnalités semblent correspondre à vos besoins, puis installez-la.</string>
+
+
+    <string name ="lockPasswordEnableOne">Allez dans Paramètres -> Biométrie et sécurité (OU Sécurité et localisation OU simplement)-> Verrouillage de lécran. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="lockPasswordEnableTwo">Activez le verrouillage de lécran</string>
+    <string name ="lockPasswordEnableThree">Sil existe une option de mot de passe, sélectionnez-la au lieu du verrouillage de lécran pour une meilleure sécurité. Le mot de passe doit comporter au moins 10 caractères, avec une combinaison de majuscules, de minuscules et de chiffres.</string>
+
+    <string name ="antiPhishingAppOne">Ouvrez lapplication Google Play Store. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="antiPhishingAppTwo">Recherchez les applications anti-hameçonnage (AVG AntiVirus Free - Android Virus Cleaner 2020, Mobile Security : Antivirus, Wi-Fi VPN  Anti-Theft, JioSecurity : Analyse des logiciels malveillants, antivirus, verrouillage des applications)</string>
+
+    <string name ="vPNAppAvailableOne">Ouvrez lapplication Google Play Store. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="vPNAppAvailableTwo">Rechercher lapplication VPN</string>
+    <string name ="vPNAppAvailableThree">Sélectionnez une application gratuite ou payante avec une note dau moins 4.0 et dont les caractéristiques répondent à vos besoins.</string>
+
+    <string name ="camerLoctionPermissionOne">Allez dans Paramètres -> Apps (ou Confidentialité puis Gestionnaire de permissions) -> Sélectionner lapplication Caméra . (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="camerLoctionPermissionTwo">Sélectionnez Emplacement, puis Refuser </string>
+
+    <string name ="appLocationSharingPermissionOne">Allez dans Paramètres -> Apps (ou dans Confidentialité puis dans Gestionnaire de permissions) (Cliquez sur "Aller à..." ci-dessous).</string>
+    <string name ="appLocationSharingPermissionTwo">Sélectionnez Social Media Apps</string>
+    <string name ="appLocationSharingPermissionThree">Sélectionnez Emplacement, puis Refuser (ou Seulement pendant lutilisation de lapplication).</string>
+
+
+    <string name ="antiVirusAppAvlOne">Accédez à votre application antivirus</string>
+    <string name ="antiVirusAppAvlTwo">Activer lanalyse par téléchargement Web pour les fichiers de virus</string>
+    <string name ="antiVirusAppAvlThree">Cliquez sur "Bloquer" sur les fenêtres contextuelles qui avertissent des fichiers nuisibles (ou virus)</string>
+
+
+    <string name ="webProxyOne">Allez dans Réglages->WiFi. (Cliquez sur "Aller à..." ci-dessous)</string>
+    <string name ="webProxyTwo">Sélectionnez le réseau sur lequel vous souhaitez activer Poxy, puis sélectionnez Modifier le réseau et cliquez sur Options avancées.</string>
+    <string name ="webProxyThree">Sélectionnez Manual ou Auto en fonction des paramètres de proxy disponibles et des paramètres de configuration fournis par votre fournisseur de réseau.</string>
+
+    <string name ="usbDebuggingCheckOne">Rechercher loption de débogage USB</string>
+    <string name ="usbDebuggingCheckTwo">Désactivez-le</string>
+
+    <string name="angryBirdsAppTest1">Allez dans Paramètres->WiFi. (Cliquez sur "Aller à..." ci-dessous)</string>
+
+    <string name ="portAvailableOne">Connectez-vous à votre routeur Wifi</string>
+    <string name ="portAvailableTwo">Accédez à la page Paramètres du pare-feu</string>
+    <string name ="portAvailableThree">Sil existe un paramètre "Bloquer tous les accès entrants", activez-le.</string>
+
+
+    <string name ="isRouterAdminAccessOne">Connectez-vous à votre routeur WiFi</string>
+    <string name ="isRouterAdminAccessTwo">Accédez à la page du compte administrateur</string>
+    <string name ="isRouterAdminAccessThree">Modifiez le mot de passe administratif du routeur WiFi pour quil comporte au moins 10 caractères et une combinaison de lettres majuscules/minuscules et de chiffres.</string>
+
+    <string name ="wifiPasswordStrengthOne">Pour activer le VPN lors de lutilisation dun réseau WiFi tiers, accédez au gestionnaire VPN à partir du menu de lapplication WhiteHaX CyberSafe.</string>
+    <string name ="wifiPasswordStrengthTwo">Faites glisser linterrupteur VPN sur ON</string>
+
+    <string name ="vpnNatOne">Allez dans lapplication Paramètres->Paramètres réseau ->VPN </string>
+    <string name ="vpnNatTwo"> Activez le VPN IPSec pour améliorer la confidentialité et la sécurité de vos communications Internet.</string>
+
+    <string name ="isHiddenSSIDOne">Connectez-vous à votre routeur Wifi</string>
+    <string name ="isHiddenSSIDTwo">Accédez à la page Paramètres WiFi</string>
+    <string name ="isHiddenSSIDThree">Modifiez les paramètres du routeur WiFi pour masquer le SSID. Cela permettra de réduire les intrusions WiFI potentielles.</string>
+
+    <string name ="isWifiEncryptedOne">Connectez-vous à votre routeur Wifi</string>
+    <string name ="isWifiEncryptedTwo">Accédez à la page Paramètres WiFi </string>
+    <string name ="isWifiEncryptedThree">Dans les paramètres WiFi, choisissez WPA2 ou WPA2-PSK pour un meilleur cryptage des données WiFi entre vos appareils et le routeur.</string>
+
+    <string name ="isIpDefaultRouterOne">Connectez-vous à votre routeur WiFi</string>
+    <string name ="isIpDefaultRouterTwo">Accédez à la page des paramètres du réseau WiFi</string>
+    <string name ="isIpDefaultRouterThree">Modifiez ladresse IP du routeur WiFi en changeant le 3e, (2 ou) 3 chiffres. Cela permettra de réduire les failles de sécurité potentielles du réseau WiFi.</string>
+
+
+    <string name ="dnsPosOne">Connectez-vous à votre routeur WiFi</string>
+    <string name ="dnsPosTwo">Accédez à la page Paramètres du routeur WiFi</string>
+    <string name ="dnsPosThree">Réglez les paramètres du serveur DNS sur Autosélection. Si 2 IP de serveurs DNS sont visibles, vérifiez quil sagit bien des serveurs DNS de votre fournisseur daccès (vous devrez peut-être appeler votre fournisseur daccès pour vérifier).</string>
+
+    <string name ="eavesDropCheckOne">Connectez-vous à votre routeur WiFi </string>
+    <string name ="eavesDropCheckTwo">Accédez à la page des paramètres du réseau WiFi</string>
+    <string name ="eavesDropCheckThree">Modifiez ladresse IP du routeur WiFi en changeant le 3e, (2 ou) 3 chiffres.</string>
+    <string name ="eavesDropCheckFour">Ensuite, allez à la page du compte de ladministrateur</string>
+    <string name ="eavesDropCheckFive">Modifiez le mot de passe administratif du routeur WiFi pour quil comporte au moins 10 caractères avec une combinaison de lettres </string>
+    <string name ="eavesDropCheckSix">Ensuite, allez dans Settings App->Network Settings ->VPN </string>
+    <string name ="eavesDropCheckSeven">Activez le VPN IPSec pour améliorer la confidentialité et la sécurité de</string>
+
+</resources>

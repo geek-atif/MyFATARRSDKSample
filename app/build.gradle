@@ -1,0 +1,197 @@
+//apply plugin: 'com.android.library' // for lib
+apply plugin: 'com.android.application' // for app
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'com.chaquo.python'
+//apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'project-report'
+apply plugin: "org.jlleitschuh.gradle.ktlint"
+//apply plugin: 'com.kezong.fat-aar' // for lib
+
+android {
+    compileSdkVersion 29
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.whitehax.ironsdn"
+        /*sourceSets {
+            main {
+                python.srcDir "src/main/python"
+            }
+        }*/
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 84
+        versionName "84.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+        /*python {
+            pip {
+                install "getmac"
+                install "python-nmap"
+                install "scapy"
+            }
+
+            buildPython "C:/Users/Atif Kamar/AppData/Local/Programs/Python/Python37-32/python.exe"
+        }*/
+
+        defaultConfig {
+            resConfigs "fr", "hi", "en"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField("Boolean", "SENTRY_ENABLED", "true")
+            buildConfigField("String", "SENTRY_DSN", '"dummy"')
+        }
+        debug{
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            initWith(buildTypes.debug)
+            buildConfigField("Boolean", "SENTRY_ENABLED", "true")
+            buildConfigField("String", "SENTRY_DSN", '"dummy"')
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize="4g"
+        additionalParameters=['--core-library']
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages.properties'
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages_de.properties'
+        //exclude 'libs/rt.jar'
+    }
+
+    lintOptions {
+        abortOnError false
+        quiet true
+        lintConfig file('./code_quality_tools/lint.xml')
+    }
+
+    packagingOptions {
+        exclude 'META-INF/library_release.kotlin_module'
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    aaptOptions{
+        noCompress "tflite"
+        noCompress "lite"
+    }
+
+}
+
+configurations {
+    compileOnly
+}
+
+sourceSets.all {
+    compileClasspath += configurations.compileOnly
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.aar,*.jar"])
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "androidx.core:core-ktx:1.3.2"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'androidx.work:work-runtime:2.2.0'
+    //implementation 'androidx.ads:ads-identifier:1.0.0-alpha04'
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //Android Room
+    implementation "androidx.room:room-runtime:2.4.0-alpha03"
+    annotationProcessor "androidx.room:room-compiler:2.4.0-alpha03"
+    kapt 'androidx.room:room-compiler:2.4.0-alpha03'
+    implementation 'androidx.room:room-ktx:2.2.1'
+
+    // ####################  for app ######################
+    implementation 'com.google.android.gms:play-services-safetynet:17.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    //implementation 'org.jsoup:jsoup:1.10.2'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "com.squareup.okhttp3:okhttp:4.9.0"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+    //implementation 'com.github.custanator:upnpdiscovery:1.0.1'
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.7.0'
+    implementation 'com.squareup.okhttp:okhttp:2.7.0'
+    implementation 'org.jsoup:jsoup:1.14.3'
+
+    /*
+            New Change
+     */
+
+    implementation("commons-codec:commons-codec:1.16.0")
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2-native-mt'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation ('com.github.ibrahimsn98:speedometer:1.0.1')
+    implementation ('com.github.stealthcopter:AndroidNetworkTools:0.4.5.3')
+
+
+    /*
+            Activity
+     */
+
+    implementation "androidx.activity:activity:1.2.4"
+    /*
+     open dns
+     */
+
+
+    // ##################### For Lib ################
+   /* embed project(":libndt7New")
+    embed project(":vpnLibNew")
+    embed project(":netGuardMacOs")*/
+
+
+    /*embed files('libs\\jcifs-1.3.15.jar')
+    embed files('libs\\mailcore2-android-4.aar')
+    embed("com.scottyab:rootbeer-lib:0.0.6")
+    embed("com.sun.mail:android-mail:1.6.3")
+    embed("com.sun.mail:android-activation:1.6.3")
+    embed 'com.beust:klaxon:5.0.1'*/
+
+}

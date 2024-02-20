@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WhiteHax.iml" filepath="$PROJECT_DIR$/.idea/modules/WhiteHax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-1.0.6/WhiteHax.api-1.0.6.iml" filepath="$PROJECT_DIR$/.idea/modules/api-1.0.6/WhiteHax.api-1.0.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhiteHax.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database-1.1.25/WhiteHax.database-1.1.25.iml" filepath="$PROJECT_DIR$/.idea/modules/database-1.1.25/WhiteHax.database-1.1.25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/design-1.0.14-fix19/WhiteHax.design-1.0.14-fix19.iml" filepath="$PROJECT_DIR$/.idea/modules/design-1.0.14-fix19/WhiteHax.design-1.0.14-fix19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/general-1.0.10/WhiteHax.general-1.0.10.iml" filepath="$PROJECT_DIR$/.idea/modules/general-1.0.10/WhiteHax.general-1.0.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycle-1.0.8/WhiteHax.lifecycle-1.0.8.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycle-1.0.8/WhiteHax.lifecycle-1.0.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materialedittext-1.0.21/WhiteHax.materialedittext-1.0.21.iml" filepath="$PROJECT_DIR$/.idea/modules/materialedittext-1.0.21/WhiteHax.materialedittext-1.0.21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netGuardMacOs/WhiteHax.netGuardMacOs.iml" filepath="$PROJECT_DIR$/.idea/modules/netGuardMacOs/WhiteHax.netGuardMacOs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/networking-1.0.5/WhiteHax.networking-1.0.5.iml" filepath="$PROJECT_DIR$/.idea/modules/networking-1.0.5/WhiteHax.networking-1.0.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/preferenceexport-1.0.10/WhiteHax.preferenceexport-1.0.10.iml" filepath="$PROJECT_DIR$/.idea/modules/preferenceexport-1.0.10/WhiteHax.preferenceexport-1.0.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/preferences-2.4.11/WhiteHax.preferences-2.4.11.iml" filepath="$PROJECT_DIR$/.idea/modules/preferences-2.4.11/WhiteHax.preferences-2.4.11.iml" />
+    </modules>
+  </component>
+</project>

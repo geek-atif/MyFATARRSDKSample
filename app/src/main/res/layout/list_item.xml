@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:padding="12dp"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/im_copy_email"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_marginTop="8dp"
+        android:text="******"
+        android:layout_below="@+id/tv_email"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/im_copy_password"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
