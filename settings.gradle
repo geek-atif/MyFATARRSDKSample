@@ -1,0 +1,22 @@
+//include ':tcpdumpnew'
+//include ':webservernew'
+//include ':netGuard'
+//include ':vpnLibNew'
+//include ':libndt7New'
+//include ':libndt7'
+//include ':vpnLib'
+include ':preferenceexport-1.0.10'
+include ':networking-1.0.5'
+include ':materialedittext-1.0.21'
+include ':lifecycle-1.0.8'
+include ':preferences-2.4.11'
+include ':general-1.0.10'
+include ':design-1.0.14-fix19'
+include ':database-1.1.25'
+include ':api-1.0.6'
+include ':app'
+//project(':netGuardMac').projectDir = new File(rootDir, 'netGuard/')
+//project(':netGuardNew').projectDir = new File(rootDir, 'netGuard/')
+rootProject.name = "WhiteHax"
+
+include ':netGuardMacOs'

@@ -1,0 +1,87 @@
+/*
+ext.public_nexus_user = "publicaccess"
+def getNexusUser(){
+    def user = System.getenv("NEXUS_USER")
+    if(user == null){
+        println "Using public Nexus user"
+        user = public_nexus_user
+    } else {
+        println "Nexus user: $user"
+    }
+    return user
+}
+
+ext.public_nexus_token = "HWGxGVPtvV4p3ZS9RSXf"
+def getNexusPassword(){
+    def pw = System.getenv("NEXUS_PASSWORD")
+    if(pw == null){
+        println "Using public Nexus password"
+        pw = public_nexus_token
+    }
+    return pw
+}
+
+static def getSystemVariableOrDefault(String variable, String defaultValue) {
+    def value = System.getenv(variable)
+    if(value == null) {
+        return defaultValue
+    }
+    return value
+}
+
+ext.nexus_user = getNexusUser()
+ext.nexus_password = getNexusPassword()
+
+*/
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    //ext.kotlin_version = "1.3.72"
+    ext.kotlin_version = "1.6.0"
+    repositories {
+        google()
+        jcenter()
+        /*maven { "https://jitpack.io"
+        }*/
+        maven { url 'https://jitpack.io' }
+        mavenCentral()
+        maven { url "https://chaquo.com/maven"
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.15.1"
+        classpath("org.jlleitschuh.gradle:ktlint-gradle:9.4.1")
+        classpath 'com.github.kezong:fat-aar:1.3.8'
+        //classpath "com.chaquo.python:gradle:8.0.1"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+     //   maven { url = 'https://dl.bintray.com/michaelbull/maven' }
+        //maven { url= "C://Users/Admin/.gradle/caches/modules-2/files-2.1/com.frostnerd.utils/" }
+        maven {
+            url 'https://nexus.frostnerd.com/repository/libs-release/'
+            credentials {
+                username = "publicaccess"
+                password = "HWGxGVPtvV4p3ZS9RSXf"
+            }
+        }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
